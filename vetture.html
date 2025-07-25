@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <title>Leonardo Mandelli_vetture</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta name="keywords" content="Viaggi, Auto, Bici">
+    <meta name="author" content="Leonardo Mandelli">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<meta http-equiv="refresh" content="30"> Refresh document every 30 seconds-->
+</head>
+
+<body>
+<!--inizio menu-->
+<!-- Hamburger ☰-->
+<div class="hamburger" onclick="toggleSidebar()">☰</div>
+<!-- Sidebar -->
+<nav class="sidebar" id="sidebar">
+<ul>
+    <center><img src="ML.JPG" width="50" height="50"></center>
+    <li><a href="index.html">Home</a></li>
+    <li class="has-submenu">
+      <a href="viaggi.html" onclick="toggleSubmenu(event)">Viaggi ▾</a>
+      <ul class="submenu">
+        <li><a href="viaggi.html#Montagna">Montagna</a></li>
+        <li><a href="viaggi.html#Mare">Mare</a></li>
+        <li><a href="viaggi.html#Citta">Citta'</a></li>
+      </ul>
+    </li>
+    <li class="has-submenu">
+        <a href="bici.html" onclick="toggleSubmenu(event)">Bici ▾</a>
+        <ul class="submenu">
+          <li><a href="bici.html#Giri">Giri in Brianza</a></li>
+          <li><a href="bici.html#strada">Bici da strada</a></li>
+          <li><a href="bici.html#mtb">MTB</a></li>
+          <li><a href="bici.html#lap">Calcolatore di lap</a></li>
+        </ul>
+    </li>
+    <li class="has-submenu">
+        <a href="vetture.html" onclick="toggleSubmenu(event)">Vetture ▾</a>
+        <ul class="submenu">
+          <li><a href="vetture.html#rs3">Audi RS3</a></li>
+          <li><a href="vetture.html#rs6">Audi RS6</a></li>
+          <li><a href="vetture.html#r8">Audi R8</a></li>
+        </ul>
+    </li>
+</ul>
+</nav>
+<!-- Overlay -->
+<div class="overlay" id="overlay" onclick="toggleSidebar()"></div>
+<script src="menu.js"></script>
+<!--fine menu-->
+
+<h1><a href="index.html" style="color:rgb(255, 153, 0);">Leonardo Mandelli</a></h1>
+<h2>Audi</h2>
+<h3 id="rs3">Audi RS3 – La compatta ad alte prestazioni</h3>
+<div class="menu">
+    <div>
+        <a href="https://it.wikipedia.org/wiki/Audi_RS3">
+        <img src="https://media.audi.com/is/image/audi/nemo/models/a3/rs-3-sportback/my-2025/stage/RS3_2023_5852-L.jpg?width=1920" width="70%";max-width="330" alt="Audi RS3">
+        </a>
+    </div>
+    <div>
+        <ul class="lista-con-icone">
+            <li>Motore 2.5 TFSI a 5 cilindri in linea da 400 CV e 500 Nm</li>
+            <li>Accelerazione da 0 a 100 km/h in soli 3,8 secondi</li>
+            <li>Sistema di trazione integrale RS Torque Splitter</li>
+            <li>Assetto sportivo ribassato di 25 mm rispetto all'A3, con 
+                sospensioni adattive DCC</li>
+            <li>Impianto frenante ad alte prestazioni grazie ai carboceramici</li>
+        </ul>
+    </div>
+    <div>
+        <p>La Audi RS3 è una berlina sportiva che combina dimensioni compatte con 
+            una potenza straordinaria, offrendo un'esperienza di guida entusiasta e dinamica.</p>
+    </div>
+</div>
+<br>
+<br>
+<h3 id="rs6">Audi RS6 – La station wagon da supercar</h3>
+<div class="menu">
+    <div>
+        <a href="https://it.wikipedia.org/wiki/Audi_RS6">
+        <img src="https://media.audi.com/is/image/audi/nemo/models/a6/rs-6-avant-gt/my-2024/stage/RS6GT_2023_5610-V2-L.jpg?width=1920" width="70%";max-width="330" alt="Audi RS6">
+        </a>
+    </div>
+    <div>
+        <ul class="lista-con-icone">
+            <li>Motore V8 biturbo da oltre 600 CV, con trazione integrale Quattro</li>
+            <li>Accelerazione da 0 a 100 km/h in soli 3,8 secondi</li>
+            <li>Velocità massima di 305 km/h e consumo basso per un'auto come questa</li>
+            <li>Assetto sportivo ribassato, con sospensioni adattive DCC</li>
+            <li>Impianto frenante ad alte prestazioni grazie ai carboceramici</li>
+        </ul>
+    </div>
+    <div>
+        <p>La Audi RS6 Avant unisce la praticità di una station wagon con le prestazioni 
+            di una supercar, offrendo spazio e velocità in un'unica vettura.</p>
+    </div>
+</div>
+<br>
+<br>
+<h3 id="r8">Audi R8 – La supercar dei quattro anelli</h3>
+<div class="menu">
+    <div>
+        <a href="https://it.wikipedia.org/wiki/Audi_R8">
+        <img src="https://cdn.motor1.com/images/mgl/vxoJ0Y/s3/2023-audi-r8-v10-gt-rwd.jpg" width="70%";max-width="330" alt="Audi R8">
+        </a>
+    </div>
+    <div>
+        <ul class="lista-con-icone">
+            <li>Motore V10 aspirato da 610 CV</li>
+            <li>Accelerazione da 0 a 100 km/h in soli 2,9 secondi</li>
+            <li>Trasmissione a doppia frizione a 7 rapporti per cambi marcia rapidi e precisi</li>
+            <li>Design esterno elegante con griglia a nido d'ape e fari a LED</li>
+            <li>Interni lussuosi</li>
+        </ul>
+    </div>
+    <div>
+        <p>La Audi R8 è una supercar che offre prestazioni straordinarie, comfort di guida 
+            e un design mozzafiato, rappresentando l'apice della tecnologia Audi.</p>
+    </div>
+</div>
+
+<h2>Guida in pista</h2>
+<div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+<iframe src="https://www.youtube.com/embed/Yx60o-r76D0" 
+        title="DRIVING EXPERIENCE - Autodromo Nazionale di Monza."
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen 
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+</iframe>
+</div>
+<div style="margin: 50px;">
+<h3>L'evento</h3>
+<p>Appena arrivati nel paddock, gli invitati avevano di fronte a loro diverse aree tra le quali, una zona relax e lounge, uno spazio dedicato alla vincita di gadget brandizzati e per finire una zona molto amata, due simulatori capaci di far vivere l’emozione di guida in bilico tra realtà e mondo virtuale.</p>
+
+<h3>Area box</h3>
+<p>Nell’area box, erano presenti, tre diverse e distinte installazioni con esposte tre vetture: Volkswagen ID.5, Audi Q4 e-tron e CUPRA Formentor. Ogni spazio dava l’impressione di immergersi all’interno del brand di riferimento grazie a video, suoni, luci e allestimenti.</p>
+
+<h3>Esperienza di guida</h3>
+<p>Durante tutta la giornata i nostri invitati hanno potuto testare in prima persona diverse vetture, su tre diversi terreni: in pista, in offroad e in un percorso urbano.</p>
+
+<h3>Percorso in pista</h3>
+<p>Abbiamo dato la possibilità di guidare diverse vetture sportive tra cui: Audi RS e-tron GT, Audi S3, Audi RS5, Volkswagen T-Roc R, Volkswagen Tiguan R, Volkswagen Golf R e CUPRA Formentor con apripista la Safety Car della Formula 1: Audi RS6.
+I nostri clienti hanno testato le nostre vetture affiancati a dei piloti professionisti con i quali hanno potuto confrontarsi sulle prestazioni di guida.</p>
+
+<h3>PERCORSO OFFROAD</h3>
+In un percorso insidioso tra terreno instabile e curve, i nostri invitati hanno potuto provare con mano alcune delle nostre auto elettriche di gamma quali: CUPRA Born, Volkswagen ID.4 e Audi Q4 e-tron.</p>
+
+<h3>PERCORSO URBANO</h3>
+<p>Per chi invece, voleva un’esperienza più tranquilla, abbiamo messo a disposizione una Volkswagen ID.4, CUPRA Born e un’Audi Q4 e-tron da testare sul suolo cittadino immergendosi nelle bellissime vie della città di Monza.</p>
+</div>
+</body>
+</html>

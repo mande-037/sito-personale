@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <title>Leonardo Mandelli_viaggi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta name="keywords" content="Viaggi, Auto, Bici">
+    <meta name="author" content="Leonardo Mandelli">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<meta http-equiv="refresh" content="30"> Refresh document every 30 seconds-->
+</head>
+
+<body>
+<!--inizio menu-->
+<!-- Hamburger ☰-->
+<div class="hamburger" onclick="toggleSidebar()">☰</div>
+<!-- Sidebar -->
+<nav class="sidebar" id="sidebar">
+<ul>
+    <center><img src="ML.JPG" width="50" height="50"></center>
+    <li><a href="index.html">Home</a></li>
+    <li class="has-submenu">
+      <a href="viaggi.html" onclick="toggleSubmenu(event)">Viaggi ▾</a>
+      <ul class="submenu">
+        <li><a href="viaggi.html#Montagna">Montagna</a></li>
+        <li><a href="viaggi.html#Mare">Mare</a></li>
+        <li><a href="viaggi.html#Citta">Citta'</a></li>
+      </ul>
+    </li>
+    <li class="has-submenu">
+        <a href="bici.html" onclick="toggleSubmenu(event)">Bici ▾</a>
+        <ul class="submenu">
+          <li><a href="bici.html#Giri">Giri in Brianza</a></li>
+          <li><a href="bici.html#strada">Bici da strada</a></li>
+          <li><a href="bici.html#mtb">MTB</a></li>
+          <li><a href="bici.html#lap">Calcolatore di lap</a></li>
+        </ul>
+    </li>
+    <li class="has-submenu">
+        <a href="vetture.html" onclick="toggleSubmenu(event)">Vetture ▾</a>
+        <ul class="submenu">
+          <li><a href="vetture.html#rs3">Audi RS3</a></li>
+          <li><a href="vetture.html#rs6">Audi RS6</a></li>
+          <li><a href="vetture.html#r8">Audi R8</a></li>
+        </ul>
+    </li>
+</ul>
+</nav>
+<!-- Overlay -->
+<div class="overlay" id="overlay" onclick="toggleSidebar()"></div>
+<script src="menu.js"></script>
+<!--fine menu-->
+
+<h1><a href="index.html" style="color:rgb(255, 153, 0);">Leonardo Mandelli</a></h1>
+<h2 id="Montagna">Montagna</h2>
+<div class="viaggi">
+    <div>
+        <h3>Scopri Livigno: un angolo di paradiso tra le Alpi</h3>
+        <p>Livigno è una destinazione che unisce la bellezza naturale delle Alpi italiane
+            con l'adrenalina degli sport all'aria aperta. Che tu stia cercando un'avventura 
+            sulle piste da sci, un'escursione tra i boschi o semplicemente un angolo tranquillo per
+            rilassarti, Livigno ha tutto. Con i suoi paesaggi mozzafiato, i numerosi sentieri e la 
+            vivace atmosfera, è il posto ideale per una fuga all'insegna della natura e del divertimento.
+        </p>
+    </div>
+    <div>
+        <img src="IMG/viaggi/livigno.jpg" height="150" alt="Valdidentro">
+        <img src="IMG/viaggi/livigno2.jpg" height="150" alt="Livigno">
+    </div>
+</div>
+<br>
+<div class="viaggi">
+    <div>
+        <img src="IMG/viaggi/tren.jpg" height="150" alt="Cagno'">
+        <img src="IMG/viaggi/tren2.jpg" height="150" alt="Proves">
+    </div>
+    <div>
+        <h3>Val di Non: natura, tradizione e panorami da cartolina</h3>
+        <p>Immersa nel cuore del Trentino, la Val di Non e' una valle che conquista 
+        al primo sguardo. Famosa per i suoi meleti infiniti, i castelli fiabeschi e 
+        i canyon scolpiti nella roccia, è il luogo perfetto per chi cerca un mix di natura, 
+        cultura e relax. Che si tratti di una camminata tra i sentieri panoramici o di una visita 
+        ai borghi caratteristici, ogni angolo della valle regala emozioni autentiche e paesaggi 
+        che restano impressi.        
+    </p>
+    </div>
+</div>
+<br>
+<br>
+<h2 id="Mare">Mare</h2>
+<div class="viaggi">
+    <div>
+        <h3>Villasimius: mare turchese e libertà senza filtri</h3>
+        <p>Villasimius è una delle perle del sud Sardegna, dove il mare 
+            ha tutte le sfumature dell’azzurro e ogni spiaggia sembra uscita 
+            da una cartolina. Sabbia chiara, acque cristalline e tramonti che lasciano 
+            senza parole: qui il tempo rallenta e ogni giornata profuma di libertà. 
+            Che sia un tuffo a Punta Molentis, un giro in gommone o un aperitivo vista mare, 
+            Villasimius è il posto perfetto per ricaricare mente e spirito.
+        </p>
+    </div>
+    <div>
+        <img src="IMG/viaggi/villa.jpg" height="150" alt="Spiaggia di cava usai">
+        <img src="IMG/viaggi/villa2.jpg" height="150" alt="Spiaggia di Campulongu">
+    </div>
+</div>
+<br>
+<div class="viaggi">
+    <div>
+        <img src="IMG/viaggi/pale.jpg" height="150" alt="Mondello">
+        <img src="IMG/viaggi/pale2.jpg" height="150" alt="Palermo centro">
+    </div>
+    <div>
+        <h3>Palermo: contrasti, colori e un'anima che vibra</h3>
+        <p>Palermo è una città che non si visita soltanto: si vive, 
+            si ascolta, si respira. Tra mercati storici, chiese maestose 
+            e vicoli che raccontano secoli di storia, ogni passo svela un mix 
+            unico di culture e tradizioni. Il profumo dello street food, i colori 
+            delle maioliche, il suono del dialetto: tutto a Palermo ha carattere. 
+            Una meta che lascia il segno, dove ogni esperienza è intensa, vera e 
+            profondamente siciliana.    
+    </p>
+    </div>
+</div>
+<br>
+<br>
+<h2 id="Citta">Citta'</h2>
+<div class="viaggi">
+    <div>
+        <h3>Torino: eleganza, storia e una città che sa sorprenderti</h3>
+        <p>Torino è una città che mescola il fascino della sua storia con un'atmosfera moderna 
+            e vibrante. Passeggiare per il centro storico significa immergersi in secoli di cultura, 
+            tra palazzi barocchi, piazze maestose e musei che raccontano il passato e il futuro. 
+            Ma Torino è anche una città di caffè storici, cioccolato prelibato e aperitivi con vista 
+            sulle Alpi. Ogni angolo ha una storia da raccontare, e ogni visita è un viaggio tra 
+            eleganza e curiosità.
+        </p>
+    </div>
+    <div>
+        <img src="IMG/viaggi/torino.jpg" height="150" alt="Piazza San Carlo">
+        <img src="IMG/viaggi/torino2.jpg" height="150" alt="Palazzo Madama">
+    </div>
+</div>
+<br>
+<div class="viaggi">
+    <div>
+        <img src="IMG/viaggi/fire.jpg" height="150" alt="Santa Croce">
+        <img src="IMG/viaggi/fire2.jpg" height="150" alt="Piazza Signoria">
+    </div>
+    <div>
+        <h3>Firenze: l'arte che vive nelle strade</h3>
+        <p>Firenze è un museo a cielo aperto, dove ogni angolo racconta una storia di arte, 
+            bellezza e cultura. Passeggiando lungo il fiume Arno, tra il Ponte Vecchio e la 
+            Galleria degli Uffizi, si respira la magia di una città che è stata la culla del 
+            Rinascimento. Ogni piazza, ogni vicolo, nasconde capolavori e scorci mozzafiato, 
+            mentre i suoi caffè storici invitano a una pausa tra un’opera e l’altra. 
+            Firenze è un viaggio nel cuore dell’arte, un’esperienza che rimane impressa per sempre.    
+    </p>
+    </div>
+</div>
+</body>
+</html>

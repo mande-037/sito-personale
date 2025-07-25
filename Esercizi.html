@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <title>Leonardo Mandelli_esercizi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta name="keywords" content="Viaggi, Auto, Bici">
+    <meta name="author" content="Leonardo Mandelli">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<meta http-equiv="refresh" content="30"> Refresh document every 30 seconds-->
+    <style>
+        body{background-color: white;}
+    </style>
+</head>
+
+<body>
+    <h1>Calcolo numero di Lap</h1>
+    <h2>Consegna:</h2>
+    <p>Determinare quanti lap di K km sono compresi nell'intervallo(x km...y km) </p>
+    <script src="script.js"></script>
+
+    <label for="a">Inserisci chilometri iniziali:</label>
+    <br>
+    <input type="number" id="a" name="a"><br>
+
+    <label for="b">Inserisci chilometri alla fine dei lap:</label>
+    <br>
+    <input type="number" id="b" name="b"><br>
+
+    <label for="k">Inserisci la lunghezza dei lap:</label>
+    <br>
+    <input type="number" id="k" name="k">
+    <br>
+
+    <button onclick="calcolaMultipli()">Calcola</button>
+
+    <div id="risultato"></div>
+
+    <h1>Come pagare la tua bici?</h1>
+    <h2>Inserisci il prezzo della bici dei tuoi sogni</h2>
+    <p>Io calcolero' quante banconote(da 200, 100, 50, 20, 10, 5, 1) ti servono per pagarla</p>
+    
+    <label for="c">Inserisci l'importo:</label>
+    <br>
+    <input type="number" id="c" name="c">
+    <br>
+    
+    <button onclick="calcolabanconote()">Trova</button>
+    <div id="risultato2"></div>
+</body>
+</html>
+

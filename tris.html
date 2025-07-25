@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tris</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    td {
+      width: 100px;
+      height: 100px;
+      text-align: center;
+      font-size: 48px;
+      cursor: pointer;
+      border: 1px solid black;
+    }
+    td:hover {
+      background-color: whitesmoke;
+    }
+    table {
+      margin: 0 auto;
+      border-collapse: collapse;
+    }
+  </style>
+</head>
+
+<body>
+    <script src="tris.js"></script>
+
+  <h1>Tris!</h1>
+  <table>
+    <tr>
+      <td onclick="mossa(0, 0)"></td>
+      <td onclick="mossa(0, 1)"></td>
+      <td onclick="mossa(0, 2)"></td>
+    </tr>
+    <tr>
+      <td onclick="mossa(1, 0)"></td>
+      <td onclick="mossa(1, 1)"></td>
+      <td onclick="mossa(1, 2)"></td>
+    </tr>
+    <tr>
+      <td onclick="mossa(2, 0)"></td>
+      <td onclick="mossa(2, 1)"></td>
+      <td onclick="mossa(2, 2)"></td>
+    </tr>
+  </table>
+</body>
+</html> 

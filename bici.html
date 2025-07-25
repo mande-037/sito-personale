@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <title>Leonardo Mandelli_bici</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta name="keywords" content="Viaggi, Auto, Bici">
+    <meta name="author" content="Leonardo Mandelli">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<meta http-equiv="refresh" content="30"> Refresh document every 30 seconds-->
+</head>
+
+<body>
+<!--inizio menu-->
+<!-- Hamburger ☰-->
+<div class="hamburger" onclick="toggleSidebar()">☰</div>
+<!-- Sidebar -->
+<nav class="sidebar" id="sidebar">
+<ul>
+    <center><img src="ML.JPG" width="50" height="50"></center>
+    <li><a href="index.html">Home</a></li>
+    <li class="has-submenu">
+      <a href="viaggi.html" onclick="toggleSubmenu(event)">Viaggi ▾</a>
+      <ul class="submenu">
+        <li><a href="viaggi.html#Montagna">Montagna</a></li>
+        <li><a href="viaggi.html#Mare">Mare</a></li>
+        <li><a href="viaggi.html#Citta">Citta'</a></li>
+      </ul>
+    </li>
+    <li class="has-submenu">
+        <a href="bici.html" onclick="toggleSubmenu(event)">Bici ▾</a>
+        <ul class="submenu">
+          <li><a href="bici.html#Giri">Giri in Brianza</a></li>
+          <li><a href="bici.html#strada">Bici da strada</a></li>
+          <li><a href="bici.html#mtb">MTB</a></li>
+          <li><a href="bici.html#lap">Calcolatore di lap</a></li>
+        </ul>
+    </li>
+    <li class="has-submenu">
+        <a href="vetture.html" onclick="toggleSubmenu(event)">Vetture ▾</a>
+        <ul class="submenu">
+          <li><a href="vetture.html#rs3">Audi RS3</a></li>
+          <li><a href="vetture.html#rs6">Audi RS6</a></li>
+          <li><a href="vetture.html#r8">Audi R8</a></li>
+        </ul>
+    </li>
+</ul>
+</nav>
+<!-- Overlay -->
+<div class="overlay" id="overlay" onclick="toggleSidebar()"></div>
+<script src="menu.js"></script>
+<!--fine menu-->
+
+<h1><a href="index.html" style="color:rgb(255, 153, 0);">Leonardo Mandelli</a></h1>
+<h2 id="Giri">Giri in Brianza</h2>
+<div>
+    <div class="viaggi">
+        <div>
+       <img src="IMG/bici/triuggio.jpg" width="250" height="200">
+        </div>
+        <div>
+        <h3><a href="https://www.komoot.com/it-it/smarttour/30761190">Tetto Brianzolo–Sirtori 
+            giro ad anello con partenza da Triuggio-Ponte Albiate</a></h3>
+        <p>Un giro ad anello che porta verso uno dei punti panoramici più suggestivi 
+            della Brianza: il Tetto Brianzolo. Si parte da Triuggio - Ponte Albiate 
+            e si sale dolcemente tra colline, vigneti e scorci rurali, fino a raggiungere 
+            Sirtori, cuore verde della zona. Da qui, la vista si apre su tutta la pianura 
+           e nelle giornate limpide arriva fino alle Alpi. Il rientro attraversa stradine 
+           tranquille e boschi che rendono l’uscita varia e piacevole. Un percorso ideale 
+           per chi ama pedalare tra natura e panorami, senza allontanarsi troppo da casa.</p>
+       </div>
+    </div>
+    <br>
+    <div class="viaggi">
+        <div>
+        <img src="IMG/bici/segrino.jpg" width="250" height="200">
+        </div>
+        <div>
+        <h3><a href="https://www.komoot.com/it-it/smarttour/30744438">Colma di Sormano–Lago del 
+          Segrino giro ad anello con partenza da Seregno</a></h3>
+        <p>Un classico giro in bici tra le bellezze della Brianza: si parte da Seregno e si affronta 
+            la leggendaria Colma di Sormano, salita breve ma intensa, perfetta per mettere alla 
+            prova le gambe. Dopo lo sforzo, il percorso regala un tratto panoramico verso il Lago 
+            del Segrino, incastonato tra i monti e circondato da una natura tranquilla. 
+            L’anello si chiude rientrando verso Seregno, tra strade secondarie, paesaggi verdi 
+            e piccoli borghi brianzoli. Un itinerario completo, tra fatica, panorami e puro 
+            piacere su due ruote.</p>
+        </div>
+    </div>
+    <br>
+    <div class="viaggi">
+        <div>
+        <img src="IMG/bici/pusiano.jpg" width="250" height="200">
+        </div>
+        <div>
+        <h3><a href="https://www.komoot.com/it-it/smarttour/25111549">Lago di Pusiano–Punto di Vista (Onno) 
+           giro ad anello con partenza da Seregno</a></h3>
+        <p>Un anello tra laghi e salite vista lago: si parte da Seregno in direzione nord, 
+            attraversando i paesi della Brianza fino a raggiungere le sponde tranquille del 
+            Lago di Pusiano. Da lì si prosegue verso Onno, dove inizia la salita verso il celebre 
+            Punto di Vista, uno dei balconi naturali più spettacolari affacciati sul 
+            Lago di Como. Dopo una breve sosta per godersi il panorama, si scende verso 
+            Valmadrera o Oggiono per poi chiudere il giro rientrando a Seregno. 
+            Un itinerario vario, tra pianura, salite impegnative e viste mozzafiato.</p>
+        </div>
+    </div>
+</div>
+
+<h2>Le migliori bici secondo me</h2>
+<div class="menu">
+    <div id="strada" style="position: relative;">
+        <table>
+            <tr>
+              <th colspan="3"> Bici da strada</th>
+            </tr>
+            <tr>
+              <td>Bianchi Oltre RC</td>
+              <td>Carbonio ultraleggero</td>
+              <td>Gare, alta velocità, prestazioni.</td>
+            </tr>
+            <tr>
+              <td>Bianchi Specialissima RC</td>
+              <td>Carbonio leggero e rigido</td>
+              <td>Scalatori, uscite lunghe e collinari</td>
+            </tr>
+            <tr>
+              <td>Bianchi Infinito CV</td>
+              <td>Telaio in grado di assorbire le vibrazioni</td>
+              <td>Granfondo e lunghi tragitti</td>
+            </tr>
+        </table>
+    </div>
+        <div style="position: absolute; transform: translate(90%, 35%);">
+            <img src="https://www.quicicloturismo.it/wp-content/uploads/2024/08/unnamed-6-1536x1143.jpg" width="70%";max-width="330">
+        </div>
+        <div style="position: absolute; transform: translate(185%, 0%);">
+            <iframe src="https://mrgbike.it/negozio/biciclette/bici-da-corsa/bianchi-oltre-rc-durace-di2-12v/" width="100%";max-width="330"; height="375" title="Oltre RC"></iframe>
+        </div>
+</div>
+<br>
+<div class="menu">
+    <div id="mtb" style="position: relative;">
+        <table>
+            <tr>
+                <th colspan="3">MTB</th>
+            </tr>
+            <tr>
+              <td>Bianchi Methanol CV FS</td>
+              <td>Telaio leggero, geometria race-ready, full suspended</td>
+              <td>Competizioni, trail tecnici</td>
+            </tr>
+            <tr>
+              <td>Bianchi Methanol CV</td>
+              <td>Super leggera e reattiva</td>
+              <td>XC, gare, salita secca</td>
+            </tr>
+            <tr>
+              <td>Bianchi Magma 9.3 / 9.2</td>
+              <td>Telaio in alluminio e forcella ammortizzata</td>
+              <td>Uscite occasionali</td>
+            </tr>
+          </table>
+    </div>
+    <div style="position: absolute; transform: translate(90%, 50%);">
+        <img src="https://www.bianchi.com/wp-content/uploads/2019/07/MethanolCVFS_5G_Front.jpg" width="70%";max-width="330">
+    </div>
+    <div style="position: absolute; transform: translate(185%, 0%);">
+        <iframe src="https://mrgbike.it/negozio/biciclette/bici-mtb/bianchi-methanol-cv-fs-9-1-sram-xx1-eagle-axs-12v/" width="100%";max-width="330"; height="375" title="Methanol CV FS"></iframe>
+    </div>
+</div>
+<br>
+<br>
+
+<div id="lap">
+  <center><iframe src="Esercizi.html" height="350" width="500" title="Iframe Example"></iframe></center>
+</div>
+
