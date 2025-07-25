@@ -38,15 +38,20 @@
         </ul>
     </li>
     <li class="has-submenu">
-        <a href="vetture.html" onclick="toggleSubmenu(event)">Vetture ▾</a>
+        <a href="vetture.html" onclick="toggleSubmenu(event)">Audi ▾</a>
         <ul class="submenu">
           <li><a href="vetture.html#rs3">Audi RS3</a></li>
           <li><a href="vetture.html#rs6">Audi RS6</a></li>
           <li><a href="vetture.html#r8">Audi R8</a></li>
         </ul>
     </li>
-    <li>
-        <a href="pcto.html"></a>
+    <li class="has-submenu">
+        <a href="pcto.html" onclick="toggleSubmenu(event)">PCTO ▾</a>
+        <ul class="submenu">
+          <li><a href="pcto.html#Cattolica">Cattolica</a></li>
+          <li><a href="pcto.html#Astronomia">Astronomia e Astrofisica</a></li>
+          <li><a href="pcto.html#CNR">CNR</a></li>
+        </ul>
     </li>
 </ul>
 </nav>
@@ -57,7 +62,7 @@
 
 <h1><a href="index.html" style="color:rgb(255, 153, 0);">Leonardo Mandelli</a></h1>
 <h2 id="PCTO">PCTO</h2>
-<div class="viaggi">
+<div class="viaggi" id="Cattolica">
     <div>
         <h2>Matematica a Fumetti</h2>
         <p>Università ospitante: Cattolica <br>
@@ -136,7 +141,7 @@
     
 </p>
 <br>
-<div class="viaggi">
+<div class="viaggi" id="Astronomia">
     <div>
         <h2>Campus di Astronomia e Astrofisica</h2>
         <p>SCUOLA DI FORMAZIONE SCIENTIFICA LUIGI LAGRANGE APS<br>
@@ -169,13 +174,15 @@
             <br>
     </div>
     <div>
-        <a href="Mandelli Leonardo.pdf" target="_blank" alt="Attestato di partecipazione">Attestato</a>
+        <a href="Mandelli Leonardo.pdf" target="_blank" alt="Attestato di partecipazione">
+            <img src="Attestato.jpg" height="350" alt="Attestato di partecipazione Mandelli">
+        </a>
     </div>
 </div>
 <br>
 <br>
 <br>
-<div class="viaggi">
+<div class="viaggi" id="CNR">
     <div>
         <h2>CNR</h2>
         <p>Istituto ospitante: CNR – Istituto di Scienze del Patrimonio Culturale.<br>
