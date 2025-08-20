@@ -9,6 +9,13 @@
     <meta name="author" content="Leonardo Mandelli">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--<meta http-equiv="refresh" content="30"> Refresh document every 30 seconds-->
+    <style>
+        iframe{
+            width: 100%; 
+            max-width: 500px; 
+            aspect-ratio: 1 / 1;
+        }
+    </style>
 </head>
 
 <body style="margin: 10px;">
@@ -47,7 +54,7 @@
     "Fai della tua vita un sogno, e di un sogno, una realtà."
 </blockquote>
 
-<center><iframe src="tris.html" style="width: 100%; max-width: 500px; aspect-ratio: 1 / 1;" title="Tris" id="tris" style="display:none"></iframe></center>
+<center><iframe src="tris.html" title="Tris" id="tris" style="display:none"></iframe></center>
 <center><button type="button" onclick="document.getElementById('tris').style.display='block'">Gioca</button></center>
 <br>
 <center><button onclick="this.innerHTML=Date()">What's the time?</button></center>
