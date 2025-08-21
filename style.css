@@ -211,7 +211,7 @@ tr:nth-child(even) {
     height: auto;
     object-fit: contain;
 }
-@media (max-width: 125px) {
+@media (max-width: 1250px) {
   .pcto .col:nth-child(1),
   .pcto .col:nth-child(2),
   .pcto .col:nth-child(3) {
