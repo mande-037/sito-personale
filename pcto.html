@@ -2,248 +2,55 @@
 <html lang="it">
 <head>
     <meta charset="utf-8">
-    <title>Leonardo Mandelli_PCTO</title>
+    <title>Leonardo Mandelli</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <meta name="keywords" content="Viaggi, Auto, Bici">
+    <meta name="keywords" content="Viaggi, Auto, Bici, PCTO">
     <meta name="author" content="Leonardo Mandelli">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--<meta http-equiv="refresh" content="30"> Refresh document every 30 seconds-->
     <style>
-        img{
-            max-width: 100%;
+        iframe{
+            width: 100%; 
+            max-width: 500px; 
+            aspect-ratio: 1 / 1;
         }
     </style>
 </head>
 
-<body>
-<!--inizio menu-->
-<!-- Hamburger ☰-->
-<div class="hamburger" onclick="toggleSidebar()">☰</div>
-<!-- Sidebar -->
-<nav class="sidebar" id="sidebar">
-<ul>
-    <center><img src="ML.jpg" width="50" height="50"></center>
-    <li><a href="index.html">Home</a></li>
-    <li class="has-submenu">
-      <a href="viaggi.html" onclick="toggleSubmenu(event)">Viaggi ▾</a>
-      <ul class="submenu">
-        <li><a href="viaggi.html#Montagna">Montagna</a></li>
-        <li><a href="viaggi.html#Mare">Mare</a></li>
-        <li><a href="viaggi.html#Citta">Citta'</a></li>
-      </ul>
-    </li>
-    <li class="has-submenu">
-        <a href="bici.html" onclick="toggleSubmenu(event)">Bici ▾</a>
-        <ul class="submenu">
-          <li><a href="bici.html#Giri">Giri in Brianza</a></li>
-          <li><a href="bici.html#strada">Bici da strada</a></li>
-          <li><a href="bici.html#mtb">MTB</a></li>
-          <li><a href="bici.html#lap">Calcolatore di lap</a></li>
-        </ul>
-    </li>
-    <li class="has-submenu">
-        <a href="vetture.html" onclick="toggleSubmenu(event)">Audi ▾</a>
-        <ul class="submenu">
-          <li><a href="vetture.html#rs3">Audi RS3</a></li>
-          <li><a href="vetture.html#rs6">Audi RS6</a></li>
-          <li><a href="vetture.html#r8">Audi R8</a></li>
-        </ul>
-    </li>
-    <li class="has-submenu">
-        <a href="pcto.html" onclick="toggleSubmenu(event)">PCTO ▾</a>
-        <ul class="submenu">
-          <li><a href="pcto.html#Cattolica">Cattolica</a></li>
-          <li><a href="pcto.html#Astronomia">Astronomia e Astrofisica</a></li>
-          <li><a href="pcto.html#CNR">CNR</a></li>
-        </ul>
-    </li>
-</ul>
-</nav>
-<!-- Overlay -->
-<div class="overlay" id="overlay" onclick="toggleSidebar()"></div>
-<script src="menu.js"></script>
-<!--fine menu-->
-
+<body style="margin: 10px;">
+<center><img src="ML.jpg" width="25" height="25"></center>
 <h1><a href="index.html" style="color:rgb(255, 153, 0);">Leonardo Mandelli</a></h1>
-<h2 id="PCTO">PCTO</h2>
-<h2>Matematica a Fumetti</h2>
-<div class="viaggi" id="Cattolica">
-    <div>
-        <p>Università ospitante: Cattolica <br>
-            Periodo dello stage: dal 20 maggio al 1° giugno 2024 <br>
-            Tutor scolastico: prof. Damiano <br>
-            Tutor universitario: prof.ssa Grazia G. Messineo 
-        </p>
-        <br>
-        <h3>Attività</h3>
-        <p>
-        <ul class="lista-con-icone">
-            <li><b>Giovedì mattina: lezione di matematica sull'Infinito</b><br>
-                La prima giornata di stage si è svolta il 23 maggio dalle 8:30 alle 12:30. 
-                Quella mattina abbiamo seguito una lezione di matematica incentrata sul concetto 
-                di infinito, diretta dal prof. Miglierina. 
-                Durante la lezione il docente ha toccato vari aspetti dell'infinito, parlando di 
-                alcuni matematici (Cantor, Hilbert) e di alcuni filosofi (Pitagora, Zenone). 
-                È stata una lezione intensa che mi ha incuriosito molto e mi ha permesso di avere 
-                nuove conoscenze su un concetto che molte volte può apparire astratto.
-            </li>
-            <br>
-            <li><b>Giovedì pomeriggio: seminario di matematica di presentazione del libro “Istanti fatali”</b><br>
-                Giovedì pomeriggio ho partecipato a un seminario di matematica in cui il docente 
-                Malavolta ha presentato il libro “Istanti fatali” di U. Bottazzini.
-                I relatori hanno offerto una visione generale sul contenuto del libro e hanno deciso di 
-                soffermarsi su alcuni momenti critici della storia della matematica, descritti nel libro, 
-                che hanno portato a scoperte molto importanti.
-                Questa esperienza mi ha permesso di vedere la matematica non solo come una serie di formule, 
-                teoremi e numeri ma come una disciplina piena di storia e di eventi significativi.
-            </li>
-            <br>
-            <li><b>Venerdì: lezione di arte su come fare fumetti</b><br>
-                Il secondo giorno di stage ho partecipato a una lezione di arte sulla creazione di 
-                fumetti, diretta dal prof. Fontana (ex produttore di spot pubblicitari).
-                Durante la lezione il docente si è soffermato sulle diverse tecniche di disegno, 
-                composizione delle vignette e narrazione.
-                Dopo aver seguito la lezione, come esercitazione, abbiamo fatto una bozza del fumetto.
-            </li>
-            <br>
-            <li><b>Lunedì, martedì e mercoledì: lavoro di gruppo a scuola</b><br>
-                Per realizzare il fumetto, la seconda settimana di stage, abbiamo lavorato in 
-                gruppi a scuola.
-                Questa fase del progetto è stata collaborativa e mi ha permesso di confrontarmi 
-                con gli altri, scambiare idee e migliorare il nostro fumetto.
-            </li>
-            <br>
-            <li><b>Sabato: lezione online di presentazione del fumetto</b><br>
-                Per presentare l’elaborato ci siamo incontrati su Teams con i docenti dell’università 
-                sabato 1° giugno.
-                Durante la presentazione, diretta dal nostro tutor aziendale, ogni gruppo ha avuto 
-                modo di mostrare e discutere il proprio lavoro e le tecniche utilizzate.
-            </li>
-        </ul>
-        </p>
+<h2>PCTO</h2>
+<div class="menu">
+    <div style="background-color: green;">
+        <a href="fumetto.html">Matematica a fumetti</a>
+        <img src="IMG/PCTO/catt.jpg">
     </div>
-    <div>
-        <br><br><br>
-        <a href="IMG/PCTO/HILBERT.jpg" target="_blank">
-            <img src="IMG/PCTO/HILBERT.jpg" alt="Fumetto Hilbert">
-          </a>
+    <div style="background-color:white;">
+        <a href="astronomia.html">Campus di Astronomia e Astrofisica</a>
+        <img src="IMG/PCTO/pcto_torino.jpg">
     </div>
-</div>
-<h3>Considerazioni personali e bilancio delle competenze</h3>
-<p>
-    Secondo me questo stage ha arricchito il mio bagaglio culturale sotto diversi 
-    punti di vista. Da un lato, ho approfondito la mia comprensione dell'infinito, 
-    dal punto di vista sia matematico sia filosofico; dall’altro, ho imparato nuove 
-    tecniche nel disegnare. 
-    Il lavoro di gruppo mi ha insegnato l'importanza della collaborazione e della 
-    condivisione delle idee per realizzare un lavoro completo sotto ogni aspetto.
-    Combinare due materie così diverse in un unico progetto è stata un’esperienza 
-    particolarmente interessante; prima non avrei mai pensato di unire una materia 
-    legata a regole come la matematica ad una più libera come l’arte.
-    In conclusione, posso dire che questo stage mi ha fornito non solo nuove conoscenze 
-    teoriche ma anche abilità pratiche che potranno essermi utili in futuro.
-    
-</p>
-<br>
-<h2>Campus di Astronomia e Astrofisica</h2>
-<div class="viaggi" id="Astronomia">
-    <div>
-        <br><br><br>
-        <a href="Mandelli Leonardo.pdf" target="_blank" alt="Attestato di partecipazione">
-            <img src="IMG/PCTO/Attestato.jpg" alt="Attestato di partecipazione Mandelli">
-        </a>
-    </div>
-    <div>
-        <p>SCUOLA DI FORMAZIONE SCIENTIFICA LUIGI LAGRANGE APS<br>
-            Tenutosi a Torino <br>
-            Periodo dello stage: dal 8 al 10 novembre 2024 <br>
-            <h3>Obiettibi formativi e di orientamento:</h3>
-            <ul class="lista-con-icone">
-                <li>Sviluppare curiosità e nuove possibilità di esplorazione.</li>
-                <li>Riflettere su attitudini personali e autoconsapevolezza.</li>
-                <li>Sviluppare capacità critiche, pensiero strategico e spirito di iniziativa.</li>
-                <li>Migliorare le capacità di lavoro in autonomia e in team, adattabilità comunicativa.</li>
-                <li>Sviluppare capacità organizzative e di problem-solving.</li>
-            </ul>
-        </p>
-        <br>
-        <h3>Attività</h3>
-        <p>
-        <ul class="lista-con-icone">
-            <li><b>Venerdì 8 novembre : ritrovo, visita al Planetario, cerimonia inaugurale</b><br>
-                
-            </li>
-            <br>
-            <li><b>Sabato 9 novembre : corsi, laboratori, attività ricreative e colloquio finale</b><br>
-                
-            </li>
-            <br>
-            <li><b>Domenica 10 novembre : gara a squadre, premiazione e rientro</b><br>
-                
-            </li>
-            <br>
+    <div style="background-color: red;">
+        <a href="cnr.html">CNR</a>
+        <img src="IMG/PCTO/cozzi_53.jpg">
     </div>
 </div>
 <br>
-<br>
-<br>
-<h2>CNR</h2>
-<div class="viaggi" id="CNR">
-    <div>
-        <p>Istituto ospitante: CNR – Istituto di Scienze del Patrimonio Culturale.<br>
-            Periodo dello stage: dal 9 al 20 giugno 2025<br>
-            Ore totali svolte: 75 ore<br>
-            Tutor scolastico: prof. Fossati<br>
-            Tutor aziendale: dott.ssa Irene Rossi
-        </p>
-        <br>
-        <h3>Attività</h3>
-        <ul class="lista-con-icone">
-            <li><b>9-11 giugno</b><br>
-                Introduzione dei Regni Sudarabici da parte di Irene e inserimento delle prime Iscrizioni dedicatorie 
-                su DASI (Digital archive for the study of Pre-Islamic Arabian inscription);
-            </li>
-            <br>
-            <li><b>12 giugno</b><br>
-                Inserimento dei primi graffiti Minei
-            </li>
-            <br>
-            <li><b>13 giugno</b><br>
-                Lavoro da casa, inserimento di 50 graffiti Minei con riferimenti alle pubblicazioni di Jaussen e Savignac. 
-            </li>
-            <br>
-            <li><b>16-18 giugno</b><br>
-                Lavoro con Giulia, inserimento di graffiti del sito di ʿĀn Jamal.
-            </li>
-            <br>
-            <li><b>18-20 giugno</b><br>
-                Programmazione di un <a href="https://dasi-skos-thesauri-6be293.gitlab.io/" target="_blank">tesauro</a> che si 
-                basa sulle triple RDF e di un’applicazione che permetta di visualizzarne i contenuti.
-            </li>
-            <br>
-        </ul>
-    </div>
-    <div>
-        <br><br><br>
-        <img src="IMG/PCTO/CNR.jpg" alt="Postazione lavoro">
-    </div>
+
+<div class="centrato">
+    <p>Durante il terzo e il quarto anno del liceo scientifico, opzione scienze applicate, E.Fermi di Desio 
+       ho svolto i Percorsi per le Competenze Trasversali e l’Orientamento (PCTO), 
+       esperienze utili che mi ha permesso di avvicinarmi al mondo del lavoro e della ricerca,
+       mettendo in pratica le conoscenze acquisite e sviluppandone nuove.<br>
+       In terza ho fatto il PCTO in Cattolica mentre in quarta ne ho fatti due, uno a Torino di astronomia e 
+       l'altro al CNR di Milano.
+    </p>
 </div>
-<h3>Considerazioni personali e bilancio delle competenze</h3>
-<p>Questa esperienza di stage mi ha permesso di immergermi in un contesto di ricerca di alto livello, 
-    facendomi scoprire un ambito di studi, l’epigrafia sudarabica, che non conoscevo.
-    Durante queste due settimane ho sviluppato varie competenze trasversali:
-    <ul class="lista-con-icone">	
-        <li>Digitalizzazione dei dati storici e utilizzo di archivi specialistici come DASI;</li>
-        <li>Analisi e interpretazione di fonti epigrafiche antiche;</li>
-        <li>Organizzazione autonoma del lavoro, soprattutto durante le giornate di lavoro a distanza;</li>
-        <li>Collaborazione in team con ricercatori;</li>
-        <li>Informatica umanistica, in particolare l’uso delle tecnologie semantiche e strumenti digitali 
-            applicati alla valorizzazione del patrimonio culturale.</li>
-    </ul></p>  
-<p> In conclusione, considero questa esperienza molto positiva, perché mi ha fatto comprendere meglio 
-    l’importanza della ricerca scientifica nel campo umanistico e mi ha dato l’occasione di contribuire 
-    in modo concreto a un progetto internazionale di alto valore culturale.
-</p>
+<blockquote>
+    "Esperienze che valgono più di mille pagine di teoria."
+</blockquote>
+<br>
+<h3 style="text-align: left;"><a href="index.html"><- Home</a></h3>
 </body>
 </html>

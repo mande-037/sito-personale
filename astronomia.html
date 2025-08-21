@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <title>Leonardo Mandelli_PCTO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta name="keywords" content="Viaggi, Auto, Bici">
+    <meta name="author" content="Leonardo Mandelli">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<meta http-equiv="refresh" content="30"> Refresh document every 30 seconds-->
+    <style>
+        img{
+            max-width: 100%;
+        }
+        @media (max-width: 1250px) {
+            .menu > div {
+            width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+<!--inizio menu-->
+<!-- Hamburger ☰-->
+<div class="hamburger" onclick="toggleSidebar()">☰</div>
+<!-- Sidebar -->
+<nav class="sidebar" id="sidebar">
+<ul>
+    <center><img src="ML.jpg" width="50" height="50"></center>
+    <li><a href="index.html">Home</a></li>
+    <li class="has-submenu">
+      <a href="viaggi.html" onclick="toggleSubmenu(event)">Viaggi ▾</a>
+      <ul class="submenu">
+        <li><a href="viaggi.html#Montagna">Montagna</a></li>
+        <li><a href="viaggi.html#Mare">Mare</a></li>
+        <li><a href="viaggi.html#Citta">Citta'</a></li>
+      </ul>
+    </li>
+    <li class="has-submenu">
+        <a href="bici.html" onclick="toggleSubmenu(event)">Bici ▾</a>
+        <ul class="submenu">
+          <li><a href="bici.html#Giri">Giri in Brianza</a></li>
+          <li><a href="bici.html#strada">Bici da strada</a></li>
+          <li><a href="bici.html#mtb">MTB</a></li>
+          <li><a href="bici.html#lap">Calcolatore di lap</a></li>
+        </ul>
+    </li>
+    <li class="has-submenu">
+        <a href="vetture.html" onclick="toggleSubmenu(event)">Audi ▾</a>
+        <ul class="submenu">
+          <li><a href="vetture.html#rs3">Audi RS3</a></li>
+          <li><a href="vetture.html#rs6">Audi RS6</a></li>
+          <li><a href="vetture.html#r8">Audi R8</a></li>
+        </ul>
+    </li>
+    <li class="has-submenu">
+        <a href="pcto.html" onclick="toggleSubmenu(event)">PCTO ▾</a>
+        <ul class="submenu">
+          <li><a href="pcto.html">Home_PCTO</a></li>
+          <li><a href="fumetto.html">Cattolica</a></li>
+          <li><a href="astronomia.html">Astronomia e Astrofisica</a></li>
+          <li><a href="cnr.html">CNR</a></li>
+        </ul>
+    </li>
+</ul>
+</nav>
+<!-- Overlay -->
+<div class="overlay" id="overlay" onclick="toggleSidebar()"></div>
+<script src="menu.js"></script>
+<!--fine menu-->
+
+<h1><a href="pcto.html" style="color:rgb(255, 153, 0);">Leonardo Mandelli</a></h1>
+<h2 id="PCTO">PCTO</h2>
+<div class="pcto">
+    <div class="col">
+        <img src="IMG/PCTO/pcto_torino.jpg" alt="Ricerca corpi celesti">
+    </div>
+    <div class="col">
+        <h2 style="background-color: transparent;">Campus di Astronomia e Astrofisica</h2>
+    </div>
+    <div class="col">
+        <p> SCUOLA DI FORMAZIONE SCIENTIFICA LUIGI LAGRANGE APS<br>
+            Tenutosi a Torino <br>
+            Periodo dello stage: dal 8 al 10 novembre 2024 <br>
+        </p>
+    </div>
+</div>
+<br>
+<div class="viaggi" id="Astronomia">
+    <div>
+        <p><br>
+            <h3>Obiettibi formativi e di orientamento:</h3>
+            <ul class="lista-con-icone">
+                <li>Sviluppare curiosità e nuove possibilità di esplorazione.</li>
+                <li>Riflettere su attitudini personali e autoconsapevolezza.</li>
+                <li>Sviluppare capacità critiche, pensiero strategico e spirito di iniziativa.</li>
+                <li>Migliorare le capacità di lavoro in autonomia e in team, adattabilità comunicativa.</li>
+                <li>Sviluppare capacità organizzative e di problem-solving.</li>
+            </ul>
+        </p>
+        <br>
+        <h3>Attività</h3>
+        <p>
+        <ul class="lista-con-icone">
+            <li><b>Venerdì 8 novembre : visita al Planetario, cerimonia inaugurale</b></li>
+            <br>
+            <li><b>Sabato 9 novembre : corsi, laboratori, attività ricreative e colloquio finale</b></li>
+            <br>
+            <li><b>Domenica 10 novembre : gara a squadre, premiazione e rientro</b></li>
+            <br>
+    </div>
+    <div>
+        <br><br><br>
+        <a href="Mandelli Leonardo.pdf" target="_blank" alt="Attestato di partecipazione">
+            <img src="IMG/PCTO/Attestato.jpg" alt="Attestato di partecipazione Mandelli">
+        </a>
+    </div>
+</div>
+<br><br><br>
+<div class="menu">
+    <div>
+        <img src="IMG/PCTO/planetario.jpg" alt="Planetaio">
+    </div>
+    <div>
+        <img src="IMG/PCTO/lux.jpg" alt="LUX">
+    </div>
+    <div>
+        <img src="IMG/PCTO/infinito.jpg" alt="Infinito">
+    </div>
+</div>
+</body>
+</html>
