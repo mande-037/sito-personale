@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <title>Leonardo Mandelli_PCTO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta name="keywords" content="Percorso formativo">
+    <meta name="author" content="Leonardo Mandelli">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<meta http-equiv="refresh" content="30"> Refresh document every 30 seconds-->
+    <style>
+        img{
+            max-width: 100%;
+        }
+        @media (max-width: 1250px) {
+            .menu > div {
+            width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+<!--inizio menu-->
+<!-- Hamburger ☰-->
+<div class="hamburger" onclick="toggleSidebar()">☰</div>
+<!-- Sidebar -->
+<nav class="sidebar" id="sidebar">
+<ul>
+    <center><img src="ML.jpg" width="50" height="50"></center>
+    <li><a href="index.html">Home</a></li>
+    <li class="has-submenu">
+      <a href="viaggi.html" onclick="toggleSubmenu(event)">Viaggi ▾</a>
+      <ul class="submenu">
+        <li><a href="viaggi.html#Montagna">Montagna</a></li>
+        <li><a href="viaggi.html#Mare">Mare</a></li>
+        <li><a href="viaggi.html#Citta">Citta'</a></li>
+      </ul>
+    </li>
+    <li class="has-submenu">
+        <a href="bici.html" onclick="toggleSubmenu(event)">Bici ▾</a>
+        <ul class="submenu">
+          <li><a href="bici.html#Giri">Giri in Brianza</a></li>
+          <li><a href="bici.html#strada">Bici da strada</a></li>
+          <li><a href="bici.html#mtb">MTB</a></li>
+          <li><a href="bici.html#lap">Calcolatore di lap</a></li>
+        </ul>
+    </li>
+    <li class="has-submenu">
+        <a href="vetture.html" onclick="toggleSubmenu(event)">Audi ▾</a>
+        <ul class="submenu">
+          <li><a href="vetture.html#rs3">Audi RS3</a></li>
+          <li><a href="vetture.html#rs6">Audi RS6</a></li>
+          <li><a href="vetture.html#r8">Audi R8</a></li>
+        </ul>
+    </li>
+    <li class="has-submenu">
+        <a href="pcto.html" onclick="toggleSubmenu(event)">PCTO ▾</a>
+        <ul class="submenu">
+          <li><a href="pcto.html">Home_PCTO</a></li>
+          <li><a href="fumetto.html">Cattolica</a></li>
+          <li><a href="astronomia.html">Astronomia e Astrofisica</a></li>
+          <li><a href="cnr.html">CNR</a></li>
+        </ul>
+    </li>
+</ul>
+</nav>
+<!-- Overlay -->
+<div class="overlay" id="overlay" onclick="toggleSidebar()"></div>
+<script src="menu.js"></script>
+<!--fine menu-->
+
+<h1><a href="pcto.html" style="color:rgb(255, 153, 0);">Leonardo Mandelli</a></h1>
+<h2 id="PCTO">Attestati - Certificazioni</h2>
+<br>
+<div class="viaggi">
+    <div>
+        <p><br>
+            <h3>Campionati Italiani di Astronomia 2026</h3>
+            <p>Ho partecipato alla XXIV edizione dei Campionati Italiani di Astronomia, riuscendo a classificarmi tra 
+            i 260 migliori della categoria Master della fase preselettiva, riuscendo così a partecipare alla fase 
+            interregionale.</p>
+        </p>
+        <br>
+        <h3>Gare</h3>
+        <p>
+        <ul class="lista-con-icone">
+            <li><b>18 dicembre 2025 : Fase di preselezione - ITI E.Fermi</b></li>
+            <br>
+            <li><b>25 febbraio 2026 : Gara interregionale - Università degli Studi di Milano, Facoltà di Fisica</b></li>
+            <br>
+    </div>
+    <div>
+        <br><br><br>
+        <a href="Campionati_astronomia.pdf" target="_blank" alt="Attestato di partecipazione">
+            <img src="attestato_astronomia.png" alt="Attestato di partecipazione Mandelli">
+        </a>
+    </div>
+</div>
+<br>
+<div class="viaggi">
+    <div>
+        <p><br>
+            <h3>Giochi della chimica</h3>
+            <p>Come da "tradizione", anche quest'anno ho partecipato ai Giochi della Chimica.<br>
+                A differenza delle scorse due edizioni, in quinta ho partecipato sia individualmente sia a squadre. 
+                Individualmente ho superato la fase delle gare di istituto, riuscendo a partecipare alle gare regionali.<br>
+                Con la mia squadra ci siamo classificati cinquantesimi a livello nazionale.</p>
+        </p>
+        <br>
+        <h3>Gare</h3>
+        <p>
+        <ul class="lista-con-icone">
+            <li><b>6 febbraio 2026 : Gara di istituto - ITI E.Fermi</b></li>
+            <br>
+            <li><b>19 marzo 2026 : Gara di istituto a squadre -  ITI E.Fermi</b></li>
+            <br>
+            <li><b>28 marzo 2026 : Gara regionale -  Milano Bicocca</b></li>
+            <br>
+    </div>
+    <div>
+        <br><br><br>
+        <img src="https://www.societachimica.it/sites/default/files/users/sci_giochi/images/logo-GdC.png" alt="Attestato di partecipazione Mandelli">
+    </div>
+</div>
+<br>
+<h2 id="PCTO"> </h2>
+<br>
+<div class="viaggi">
+    <div>
+        <p><br>
+            <h3>Concorso di street art "In ricordo di Giulia"</h3>
+            <p>In quarta superiore ho provato a partecipare ad un concorso proposto dalla mia scuola,
+                con l'obiettivo di realizzare un murales nel parcheggio delle moto interno alla scuola.
+                Sono riuscito a realizzare un progetto che è arrivato alla selezione finale, tra i 25 migliori.<br>
+                Visto che non sono una cima nel disegno artistico ho deciso di partecipare al progetto con un approccio
+                più tecnologico, utilizzando strumenti di disegno digitali.
+        </p>
+        <br>
+        <img src="IMG/PCTO/murales.jpeg" alt="Murales pensato da me">
+    </div>
+    <div>
+        <br><br><br>
+        <a href="Giulia.pdf" target="_blank" alt="Attestato di partecipazione">
+            <img src="IMG/PCTO/ricordo_giulia.png" alt="Attestato di partecipazione Mandelli">
+        </a>
+    </div>
+</div>
+<br>
+<div class="viaggi">
+    <div>
+        <p><br>
+            <h3>Il potere delle idee: integrare con le arti</h3>
+            <p>Partecipando a questo concorso ho avuto modo di approfondire l'integrazione tra arte e tecnologia. 
+                L'intero gruppo si è dedicato alla stesura di una storia che racconta la solitudine che provano alcuni 
+                ragazzi e qualche possibile soluzione. Io mi sono occupato principalmente dell'animazione delle immagini 
+                e del montaggio video. Per ottenere un ottimo risultato ho valutato l'utilizzo dell'intelligenza artificiale, 
+                che mi è risultata essenziale in alcuni passaggi della realizzazione del video.<br>Questa esperienza mi ha 
+                permesso di mettere in luce le mie competenze acquisite nel video editing, portandomi a ottenere il terzo 
+                posto nei premi.
+        </p>
+        <br>
+    </div>
+    <div>
+        <br><br><br>
+        <a href="Video_arte.pdf" target="_blank" alt="Attestato di partecipazione">
+            <img src="IMG/PCTO/terzo_premio.png" alt="Attestato di partecipazione Mandelli">
+        </a>
+    </div>
+</div>
+<br>
+<div class="viaggi">
+    <div>
+        <p><br>
+            <h3>Certificazione inglese B1</h3>
+            <p>Durante il mio percorso di studi ho avuto modo di partecipare ad un corso in preparazione all'esame, 
+                che ho sostenuto a Maggio, per ottenere il certificato Cambridge B1. Il certificato è valido in tutto 
+                il mondo e vale a vita.
+            </p>
+        </p>
+        <br>
+    </div>
+    <div>
+        <br><br><br>
+        <a href="Video_arte.pdf" target="_blank" alt="Attestato di partecipazione">
+            <img src="IMG/PCTO/terzo_premio.png" alt="Attestato di partecipazione Mandelli">
+        </a>
+    </div>
+</div>
+</body>
+</html>
